@@ -1,4 +1,4 @@
-package siteamericanas;
+package page;
 
 import static org.junit.Assert.assertEquals;
 
