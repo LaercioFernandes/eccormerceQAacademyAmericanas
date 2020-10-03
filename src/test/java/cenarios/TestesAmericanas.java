@@ -2,6 +2,8 @@ package cenarios;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.concurrent.TimeUnit;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,15 +22,8 @@ public class TestesAmericanas {
 	
 	@Before
 	public void before() {
-		
 		verificaSistemaOperacionalESetaChromeDriver();
-		driver = new ChromeDriver();
-		
-//		driver.manage().timeouts().implicitlyWait(60000, TimeUnit.MILLISECONDS);
-		
-		driver.manage().window().maximize();		
 		configuraChromeDriver();
-		
 		homePage = new HomePage(driver);
 		resultadoDabuscaPage = new ResultadoDaBuscaPage(driver);
 		produtoPage = new ProdutoPage(driver);
@@ -43,8 +38,7 @@ public class TestesAmericanas {
 
 	@Test
 	public void buscarNotebook() {
-		String preco = "R$1.759,99";
-		String valorFrete = "";
+		String preco = "R$ 6.599,99";
 		homePage.abrirUrl("http://www.americanas.com");
 		homePage.realizarBuscaProdutoEClica("MacBook Air MQD32BZ/A");
 		resultadoDabuscaPage.clicaNotebook();
@@ -53,8 +47,18 @@ public class TestesAmericanas {
 		assertEquals("Valor diferente do que o esperado:", preco, valorSite);
 
 	}
-
+/**
+ * Configura o Chrome Driver com espera Implicita de até 60 Segundos
+ */
 	private void configuraChromeDriver() {
+		
+		driver = new ChromeDriver();
+		
+		//Configura espera de até 60 Segundos qualquer elemento. 
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.manage().window().maximize();		
+		
+		
 		
 	}
 
@@ -62,7 +66,7 @@ public class TestesAmericanas {
 		System.out.println(System.getProperty("os.name"));
 		if (System.getProperty("os.name").contains("windows")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\Laercio\\eclipse-workspace-Iterasys\\siteIterasys2\\Drivers\\chromedriver.exe");
+					"chromedriver.exe");
 		}else {
 			System.setProperty("webdriver.chromer.driver",
 					"chromedriver");

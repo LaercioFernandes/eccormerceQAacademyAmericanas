@@ -11,6 +11,8 @@ public class ResultadoDaBuscaPage {
 	}
 
 	public void clicaNotebook() {
-		driver.findElement(By.xpath("contains(text(),'MacBook Air MQD32BZ/A com Intel Core i5 Dual Core 8GB 128GB SSD 13'' Prata - Apple')]")).click();
+		driver.findElement(By.xpath("//picture[1]/img[contains(@src,'https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png')]")).click();
+
+	
 	}
 }
