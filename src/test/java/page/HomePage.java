@@ -12,6 +12,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import exceptions.ElementoNaoEncontradoException;
+
 public class HomePage {
 	WebDriver driver;
 
@@ -24,9 +26,11 @@ public void abrirUrl(String url) {
 
 }
 
-public void realizarBuscaProdutoEClica(String produto) {
-	driver.findElement(By.cssSelector("#h_search-input")).sendKeys(produto);
-	driver.findElement(By.xpath("//button[@id='h_search-btn']")).click();
+public void realizarBuscaProdutoEClica(String produto) throws ElementoNaoEncontradoException{
+	
+		driver.findElement(By.cssSelector("456#h_search-input")).sendKeys(produto);
+		driver.findElement(By.xpath("456//button[@id='h_search-btn']")).click();
+	
 
 }
 

@@ -9,7 +9,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
+import exceptions.ElementoNaoEncontradoException;
 import page.HomePage;
 import page.ProdutoPage;
 import page.ResultadoDaBuscaPage;
@@ -37,28 +39,41 @@ public class TestesAmericanas {
 	}
 
 	@Test
-	public void buscarNotebook() {
-		String preco = "R$ 6.599,99";
-		homePage.abrirUrl("http://www.americanas.com");
-		homePage.realizarBuscaProdutoEClica("MacBook Air MQD32BZ/A");
-		resultadoDabuscaPage.clicaNotebook();
-		String valorSite = produtoPage.retornaValorProduto();
-		System.out.println("Valor Retornado: " + valorSite);
-		assertEquals("Valor diferente do que o esperado:", preco, valorSite);
+	public void buscarNotebook() throws ElementoNaoEncontradoException{
+		try {
+			String preco = "R$ 6.799,99";
+			homePage.abrirUrl("http://www.americanas.com");
+			homePage.realizarBuscaProdutoEClica("MacBook Air MQD32BZ/A");
+			resultadoDabuscaPage.clicaNotebook();
+			String valorSite = produtoPage.retornaValorProduto();
+			System.out.println("Valor Retornado: " + valorSite);
+			assertEquals("Valor diferente do que o esperado:", preco, valorSite);
+			
+		} catch (Exception e) {
+			 throw new ElementoNaoEncontradoException();
+		}
+		
 
 	}
 /**
  * Configura o Chrome Driver com espera Implicita de até 60 Segundos
  */
 	private void configuraChromeDriver() {
-		
-		driver = new ChromeDriver();
-		
 		//Configura espera de até 60 Segundos qualquer elemento. 
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.manage().window().maximize();		
 		
-		
+//		driver.manage().window().maximize();		
+//		ChromeOptions chromeOptions = new ChromeOptions();
+//		chromeOptions.addArguments(
+////				   "--headless"
+//				   "--disable-web-security",
+//				   "--ignore-certificate-errors",
+//				   "--disable-gpu",
+//				   "window-size=1200x600",
+//				   "disable-popup-blocking",
+//				   "disable-infobars"
+//				  );
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 	}
 
@@ -68,8 +83,8 @@ public class TestesAmericanas {
 			System.setProperty("webdriver.chrome.driver",
 					"chromedriver.exe");
 		}else {
-			System.setProperty("webdriver.chromer.driver",
-					"chromedriver");
+			System.setProperty("webdriver.chrome.driver",
+					"/Users/mac/Documents/Estudos_QAACADEMY_SELENIUM/eccormerceQAacademyAmericanas/chromedriver");
 		}
 	}
 
