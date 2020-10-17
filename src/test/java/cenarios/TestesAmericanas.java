@@ -2,11 +2,18 @@ package cenarios;
 
 import static org.junit.Assert.assertEquals;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.TestName;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,6 +24,7 @@ import page.ProdutoPage;
 import page.ResultadoDaBuscaPage;
 
 public class TestesAmericanas {
+
 	WebDriver driver;
 	HomePage homePage;
 	ResultadoDaBuscaPage resultadoDabuscaPage;
@@ -39,8 +47,7 @@ public class TestesAmericanas {
 	}
 
 	@Test
-	public void buscarNotebook() throws ElementoNaoEncontradoException{
-		try {
+	public void buscarNotebook() throws IOException{
 			String preco = "R$ 6.799,99";
 			homePage.abrirUrl("http://www.americanas.com");
 			homePage.realizarBuscaProdutoEClica("MacBook Air MQD32BZ/A");
@@ -49,9 +56,6 @@ public class TestesAmericanas {
 			System.out.println("Valor Retornado: " + valorSite);
 			assertEquals("Valor diferente do que o esperado:", preco, valorSite);
 			
-		} catch (Exception e) {
-			 throw new ElementoNaoEncontradoException();
-		}
 		
 
 	}
@@ -73,6 +77,7 @@ public class TestesAmericanas {
 //				   "disable-infobars"
 //				  );
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();		
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 	}
@@ -87,5 +92,20 @@ public class TestesAmericanas {
 					"/Users/mac/Documents/Estudos_QAACADEMY_SELENIUM/eccormerceQAacademyAmericanas/chromedriver");
 		}
 	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
