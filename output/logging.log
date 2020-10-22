@@ -1,0 +1,131 @@
+2020-10-21 20:52:34 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:52:38 INFO  - clicaNotebook
+2020-10-21 20:52:40 INFO  - [Ljava.lang.StackTraceElement;@247d8ae element click intercepted: Element <img src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png" class="src__Image-xr9q25-0 eERHFe"> is not clickable at point (348, 504). Other element would receive the click: <div id="footer-lgpd" class="footer-lgpd-opened">...</div>
+  (Session info: chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:50436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 304caccfe29aadc6103beb810280dbd2
+2020-10-21 20:53:02 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:53:09 INFO  - clicaNotebook
+2020-10-21 20:53:10 INFO  - [Ljava.lang.StackTraceElement;@550ee7e5 element click intercepted: Element <img src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png" class="src__Image-xr9q25-0 eERHFe"> is not clickable at point (348, 490). Other element would receive the click: <div id="footer-lgpd" class="footer-lgpd-opened">...</div>
+  (Session info: chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:50501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6ab39b9f9faf3b75732c5417b4f6ff10
+2020-10-21 20:54:47 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:54:50 INFO  - clicaNotebook
+2020-10-21 20:54:51 INFO  - [Ljava.lang.StackTraceElement;@d29f28 element click intercepted: Element <img src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png" class="src__Image-xr9q25-0 eERHFe"> is not clickable at point (326, 490). Other element would receive the click: <div id="footer-lgpd" class="footer-lgpd-opened">...</div>
+  (Session info: headless chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:50575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5467146f726e0ec117b36bd44d275867
+2020-10-21 20:56:04 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:56:07 INFO  - clicaNotebook
+2020-10-21 20:56:08 INFO  - [Ljava.lang.StackTraceElement;@d29f28 element click intercepted: Element <img src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png" class="src__Image-xr9q25-0 eERHFe"> is not clickable at point (326, 490). Other element would receive the click: <div id="footer-lgpd" class="footer-lgpd-opened">...</div>
+  (Session info: headless chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:50627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6b3e036ddfd408356ff1e8b88261020c
+2020-10-21 20:56:23 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:56:27 INFO  - clicaNotebook
+2020-10-21 20:56:28 INFO  - [Ljava.lang.StackTraceElement;@2fd1433e element click intercepted: Element <img src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png" class="src__Image-xr9q25-0 eERHFe"> is not clickable at point (326, 490). Other element would receive the click: <div id="footer-lgpd" class="footer-lgpd-opened">...</div>
+  (Session info: headless chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:50681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6892ac450ef9bdb3cf56e679516b552b
+2020-10-21 20:57:10 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:57:17 INFO  - clicaNotebook
+2020-10-21 20:57:18 INFO  - [Ljava.lang.StackTraceElement;@212b5695 element click intercepted: Element <img src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png" class="src__Image-xr9q25-0 eERHFe"> is not clickable at point (348, 490). Other element would receive the click: <div id="footer-lgpd" class="footer-lgpd-opened">...</div>
+  (Session info: chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a2bc3d8efb504368c74bdd68cbe4ea33
+2020-10-21 20:58:42 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:58:47 INFO  - clicaNotebook
+2020-10-21 20:58:53 INFO  - Retorna Valor do Produto
+2020-10-21 20:58:55 INFO  - Valor Retornado: R$ 6.799,99
+2020-10-21 20:58:55 INFO  - R$ 6.799,99
+2020-10-21 20:59:10 INFO  - realizarBuscaProdutoEClica
+2020-10-21 20:59:14 INFO  - clicaNotebook
+2020-10-21 20:59:16 INFO  - [Ljava.lang.StackTraceElement;@247d8ae element click intercepted: Element <img src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/132490/7/132490742_1GG.png" class="src__Image-xr9q25-0 eERHFe"> is not clickable at point (348, 490). Other element would receive the click: <div id="footer-lgpd" class="footer-lgpd-opened">...</div>
+  (Session info: chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:50868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 672fb0612b6b16feec07be36b626127c
+2020-10-21 21:03:46 INFO  - realizarBuscaProdutoEClica
+2020-10-21 21:03:49 INFO  - clicaNotebook
+2020-10-21 21:03:51 INFO  - clicaNotebook
+2020-10-21 21:04:02 INFO  - Retorna Valor do Produto
+2020-10-21 21:05:02 INFO  - [Ljava.lang.StackTraceElement;@6f46426d no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='content']/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]"}
+  (Session info: chrome=86.0.4240.80)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:51222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d0b11307471099a1584219a1fbdeb593
+*** Element info: {Using=xpath, value=//body/div[@id='content']/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]}
+2020-10-21 21:05:18 INFO  - realizarBuscaProdutoEClica
+2020-10-21 21:05:23 INFO  - clicaNotebook
+2020-10-21 21:05:24 INFO  - clicaNotebook
+2020-10-21 21:05:27 INFO  - Retorna Valor do Produto
+2020-10-21 21:06:28 INFO  - [Ljava.lang.StackTraceElement;@49c7b90e no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='content']/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]"}
+  (Session info: chrome=86.0.4240.80)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:51320}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 16359a050e1060258cace75d37eb4cee
+*** Element info: {Using=xpath, value=//body/div[@id='content']/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]}
+2020-10-21 21:08:07 INFO  - realizarBuscaProdutoEClica
+2020-10-21 21:08:12 INFO  - clicaNotebook
+2020-10-21 21:08:14 INFO  - clicaNotebook
+2020-10-21 21:08:16 INFO  - Retorna Valor do Produto
+2020-10-21 21:09:00 INFO  - [Ljava.lang.StackTraceElement;@5f9b2141 Cannot locate an element using xpath=//body/div[@id='content']/div[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+2020-10-21 21:11:15 INFO  - realizarBuscaProdutoEClica
+2020-10-21 21:11:19 INFO  - clicaNotebook
+2020-10-21 21:11:20 INFO  - clicaNotebook
+2020-10-21 21:11:23 INFO  - Retorna Valor do Produto
+2020-10-21 21:11:23 INFO  - [Ljava.lang.StackTraceElement;@4d5b6aac invalid selector: The result of the xpath expression "//*[@id="root"]/div/div[2]/div[2]/div[1]/div[1]/div/text()[2]" is: [object Text]. It should be an element.
+  (Session info: chrome=86.0.4240.80)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9z/x3ptsmwd1jz...}, goog:chromeOptions: {debuggerAddress: localhost:52033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 164b399012b574c47bbe263bcf3f00d4
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div[2]/div[2]/div[1]/div[1]/div/text()[2]}
+2020-10-21 21:21:33 INFO  - realizarBuscaProdutoEClica
+2020-10-21 21:21:50 INFO  - clicaNotebook
+2020-10-21 21:21:59 INFO  - clicaNotebook
+2020-10-21 21:22:17 INFO  - Retorna Valor do Produto
+2020-10-21 21:25:31 INFO  - [Ljava.lang.StackTraceElement;@305f7627 Cannot locate an element using xpath=//*[@id="root"]/div/div[2]/div[2]/div[1]/div[1]/div/text()[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:83:b981:b3dd:1c9d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+2020-10-21 21:29:03 INFO  - realizarBuscaProdutoEClica
+2020-10-21 21:29:07 INFO  - clicaNotebook
+2020-10-21 21:29:09 INFO  - clicaNotebook
+2020-10-21 21:29:11 INFO  - Retorna Valor do Produto
+2020-10-21 21:29:12 INFO  - Valor Retornado: R$ 6.799,99
+2020-10-21 21:29:12 INFO  - R$ 6.799,99

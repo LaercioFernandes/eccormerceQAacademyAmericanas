@@ -17,7 +17,7 @@ public void abrirUrl(String url) {
 }
 
 public void realizarBuscaProdutoEClica(String produto) throws IOException {
-	
+	logger.info("realizarBuscaProdutoEClica");
 		driver.findElement(By.cssSelector("#h_search-input")).sendKeys(produto);
 		driver.findElement(By.xpath("//button[@id='h_search-btn']")).click();
 		takeScreenShot("realizarBuscaProdutoEClica");
